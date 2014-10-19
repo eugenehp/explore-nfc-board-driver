@@ -4,7 +4,8 @@
 
 * clone this repository onto you R-Pi
 * `cd explore-nfc-board-driver`
-* Build: `cmake . && make`
+* Install `./install.sh`
+* Build: `./compile.sh`
 
 ### Current support
 * Mifare Ultralight
@@ -13,6 +14,7 @@ PR are very welcome if anyone need to support other type of cards
 
 ### Read data from a card
 
+For the fast test simply use `./run.sh`
 Run `sudo ./explore-nfc poll`. This will try to read data from a Mifare Ultralight card every second and will output a proper json:
 
 ````
