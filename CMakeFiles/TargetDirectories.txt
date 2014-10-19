@@ -1,0 +1,1 @@
+/home/user/explore-nfc-board-driver/CMakeFiles/explore-nfc.dir

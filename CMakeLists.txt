@@ -13,7 +13,7 @@ include_directories (
 )
 
 
-set(EXT_LIBS  pthread  m)
+set(EXT_LIBS  pthread curl m)
 
 add_definitions(-g -O0)
 
