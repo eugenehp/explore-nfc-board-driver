@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo apt-get install cmake gcc clang g++ libcurl-openssl-dev
+sudo apt-get install cmake gcc clang g++ libcurl4-openssl-dev
